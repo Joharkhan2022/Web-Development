@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="JoharFavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="download.png" alt="Logo" height="100px" width="100px">
+            <ul class="nav-list">
+                <li><a href="/">Home      </a></li>
+                <li><a href="/">About Me  </a></li>
+                <li><a href="/">Portfolio </a></li>
+                <li><a href="/">Contact   </a></li>
+            </ul>
+
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="Hero">
+            <h1><span>I'm Syed Johar,</span> <br/> Frontend Developer based in Pakistan.</h1>
+            <p>I'm a Frontend Developer from Pakistan pursuing Intermediate From Forces Group Of College. </p>
+            <button class='hire-btn'>Hired Me</button>
+        </section>
+        
+        <!-- About Section -->
+         <section class="about">
+            <h1>About Me</h1>
+            <div class="About">
+              <ul>
+                  <li><span>Birthday:</span> 10 Sep 2006</li>
+                  <li><span>Phone:</span> 0331-6850000</li>
+                  <li><span>Degree:</span>   Software Engineering</li>
+                  <li><span>Email:</span> syedjohar2@gmail.com</li>
+                  <li><span>City:</span>     Peshawar </li>
+                 
+              </ul>
+            
+              <div class='about-skills'>
+                <div class='about-skill'> <p>HTML</p>        <hr style="width: 80%"> </div>            
+                <div class='about-skill'> <p>CSS</p>         <hr style="width: 70%"> </div>
+                <div class='about-skill'> <p>JavaScript</p>  <hr style="width: 50%"> </div>
+                <div class='about-skill'> <p>React</p>       <hr style="width: 40%"> </div>
+                <div class='about-skill'> <p>C++</p>         <hr style="width: 60%"> </div>
+              </div>
+            </div>
+         </section>
+         <!-- Portfolio -->
+          <section class="Portfolio">
+           <h1>Portfolio</h1>
+           <img src="images/Screenshot-40.png" alt="Netflix Clone" height="200px" width="390px">
+           <img src="images/primeclone.jpeg" alt="Amazon Prime Clone" height="200px" width="390px">
+           <img src="images/VFC clone.png" alt="KFC Clone" height="200px" width="390px">
+          </section>
+          <!-- Contact -->
+           <section class="contact">
+              <h1>Get in Touch</h1>
+           <div class="Get-in-Touch">
+                  <div class="personal">
+                  <h3>Get in Touch! </h3>
+                  <p> I'm currently accepting new projects. Feel free to reach out anytime to discuss your needs and let's bring your vision to life.</p>
+                  <p><span>Email:</span> syedjohar2@gmail.com</p>
+                  <p><span>Phone:</span> 0331-6850000</p>
+                  <p><span>Location:</span> Peshawar</p>
+                 </div>
+                 <form action="form">
+                <label htmlFor=''> Your Good Name </label>
+          <input type='text' placeholder='Enter your Name ' name='name'></input>
+          <label htmlFor='text'> Your Email</label>
+          <input type='email' placeholder='Enter your Email ' name='email'></input>
+          <label htmlFor='email'> Your Message </label>
+          <textarea name='message' rows="8" placeholder='Enter your message'></textarea>
+          <button type='submit' className='submit-btn'>Submit</button>
+                </form>
+            </div>
+            </section>
+    </main>
+    <footer>
+        <a href="https://instagram.com" ><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://facebook.com"><i class="fa-brands fa-github"></i></a>
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <p>&copy; 2025 My Personal Profile. All Rights Reserved.</p>
+    </footer>
+    <script>
+        const navBtn = document.querySelector('#menu-btn')
+        const navList =document.querySelector('.nav-list')
+
+        navBtn.addEventListener('click', function(){
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

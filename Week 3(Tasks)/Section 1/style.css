@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.heroImage{
+    background-image: url(991449_1_Clouds_standard.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+span{
+    font-weight: 600;
+}
+.description{
+    height: 200px;
+    width: 800px;
+    margin-left: 250px;
+    text-align: center;
+    color: white;
+}
+.description p{
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 500;    
+}
+.description h1{
+    font-size: 50px;
+}
+
+body{
+background-image: url(cloud-cover.htm);
+
+}
+.container h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #09122C;
+}
+.cards{
+    display: flex;
+    margin-left: 150px;
+}
+.card h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card{
+    color: #09122C;
+    background-color: #607bac;
+    padding: 20px;
+    height: 200px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 30px;
+}
